@@ -1,17 +1,7 @@
-%html
-  %head
-    %title Take a photo with CK Ponnappa
-    %link{"rel" => "stylesheet", "href" => "/stylesheets/index.css", "type" => "text/css"}
-  %body
-    .content
-      .caption Take a photo with CK Ponnappa
-      .image
-        %img{:src => '/images/you.jpg'}
-      %a.button{:href => '/'} Get your photo now!
-    .footer
-      This site is a parody of in incident from
-      =link_to 'RubyConf India', 'http://rubyconfindia.org/2011'
-      and is generally not endorsed by anyone.
-      For once, this site actually looks best in 
-      =link_to 'Opera', 'http://www.opera.com'
-      \. Deal with it!
+-content_for(:head) do
+  = stylesheet_link_tag 'index'
+
+.caption Take a photo with CK Ponnappa
+.image
+  %img{:src => '/images/you.jpg'}
+%a.button{:href => '/'} Get your photo now!

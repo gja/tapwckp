@@ -1,39 +1,19 @@
-body {
+.caption {
+  margin-bottom: 5px;
+  font-family: "Author", cursive;
+  font-size: x-large;
+  font-style: italic;
+}
+
+.button {
   background-color: #a1a1a1;
-
-  .content {
-    width: 600px;
-    margin: 0 auto;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px #777;
-    text-align: center;
-    padding-bottom: 10px;
-
-    .caption {
-      margin-bottom: 5px;
-      font-family: "Author", cursive;
-      font-size: x-large;
-      font-style: italic;
-    }
-
-    .button {
-        background-color: #a1a1a1;
-        box-shadow: 0 1px 3px #555555;
-        border-radius: 8px;
-        color: white;
-        text-decoration: none;
-        border: 2px solid #dddddd;
-        display: inline-block;
-        padding: 10px 14px 6px 14px;
-        cursor: pointer;
-        &:hover { background-color: #909090; }
-      }
-  }
-
-  .footer {
-    margin: 10px auto;
-    text-align: center;
-    font-size: xx-small;
-  }
+  box-shadow: 0 1px 3px #555555;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #dddddd;
+  display: inline-block;
+  padding: 10px 14px 6px 14px;
+  cursor: pointer;
+  &:hover { background-color: #909090; }
 }

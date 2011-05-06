@@ -1,0 +1,15 @@
+%html
+  %head
+    %title Take a photo with CK Ponnappa
+    = stylesheet_link_tag 'application.css'
+    = yield :head
+  %body
+    .content
+      = yield
+    .footer
+      This site is a parody of in incident from
+      =link_to 'RubyConf India', 'http://rubyconfindia.org/2011'
+      and is generally not endorsed by anyone.
+      For once, this site actually looks best in 
+      =link_to 'Opera', 'http://www.opera.com'
+      \. Deal with it!
