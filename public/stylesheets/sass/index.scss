@@ -8,12 +8,28 @@ body {
     border-radius: 15px;
     box-shadow: 5px 5px 5px #777;
     text-align: center;
+    padding: 10px;
 
     .caption {
-      font-family: "Corsiva" cursive;
+      padding: 5px;
+      font-family: "Author", cursive;
       font-size: x-large;
       font-style: italic;
     }
+
+    .button {
+        background-color: #a1a1a1;
+        box-shadow: 0 1px 3px #555555;
+        border-radius: 8px;
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+        border: 2px solid #dddddd;
+        display: inline-block;
+        padding: 10px 14px 6px 14px;
+        cursor: pointer;
+        &:hover { background-color: #909090; }
+      }
   }
 
   .footer {
