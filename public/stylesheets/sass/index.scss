@@ -1,0 +1,25 @@
+body {
+  background-color: #a1a1a1;
+
+  .content {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #777;
+    text-align: center;
+
+    .caption {
+      font-family: "Corsiva" cursive;
+      font-size: x-large;
+      font-style: italic;
+    }
+  }
+
+  .footer {
+    margin: 0 auto;
+    text-align: center;
+    font-size: xx-small;
+    padding-top: 10px;
+  }
+}

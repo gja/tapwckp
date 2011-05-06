@@ -1,9 +1,19 @@
 %html
   %head
-    %title Coming Soon
+    %title Take a photo with CK Ponnappa
+    %link{"rel" => "stylesheet", "href" => "/stylesheets/index.css", "type" => "text/css"}
   %body
-    %center
+    .content
+      .caption Take a photo with CK Ponnappa
       .image
         %img{:src => '/images/you.jpg'}
-      .image
-        %img{:src => '/images/face.jpg'}
+      .button
+        =link_to 'Click Here', '/'
+        to learn more!
+    .footer
+      This site is a parody of in incident from
+      =link_to 'RubyConf India', 'http://rubyconfindia.org/2011'
+      and is generally not endorsed by anyone.
+      For once, this site actually looks best in 
+      =link_to 'Opera', 'http://www.opera.com'
+      \. Deal with it!
