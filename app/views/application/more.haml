@@ -2,14 +2,15 @@
   = stylesheet_link_tag 'more'
 
 .text
-  %img{:src => '/images/face.jpg', :width => '300', :align => 'left'}
+  %img.left{:src => '/images/face.jpg', :width => '300'}
   %p
     %a{:href => 'http://rubyconfindia.org/2010'}> Last year
     , there were crazy long lines to take a photo with CK "Sidu" Ponnappa. This year, we aim to streamline the process to make sure that all the really 1337 h4ck3rs get priority face time. 
   %p This year Sidu is back, and he's even bigger and better than ever. Now that he's a core committer on a bunch of big projects, the lines are going to be about twenty times as long. And people are really persistant. They really want them photos.
-  %p Now Sidu doesn't take photos with just anybody. This year, you need to <em>earn</em> your right to be in a photo with his holy Siduness.
-  %p.projects
+  %img.right{:src => '/images/suit.jpg', :width => '250'}
+  %p
     Participating Open Source Projects:
     %li= link_to 'wrest', 'http://github.com/kaiwren/wrest'
     %li= link_to 'qTestable', 'http://github.com/gja/qTestable'
     %li= link_to 'goldberg', 'http://github.com/c42/goldberg'
+  .clear
