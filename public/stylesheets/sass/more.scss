@@ -2,19 +2,21 @@
   text-align: justify;
   margin: 10px;
 
-  img {
-    &.left {
-      float: left;
-    }
+  .left {
+    float: left;
+  }
 
-    &.right {
-      float: right;
-    }
+  .right {
+    float: right;
   }
 
   .clear {
     clear: both;
     height: 0;
+  }
+
+  .img-caption {
+    font-size: x-small;
   }
 
   .projects {
